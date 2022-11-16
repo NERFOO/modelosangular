@@ -12,6 +12,6 @@
     </form>
     <hr/>
     <div *ngFor="let comic of comics; let i = index">
-        <app-comic [comic]="comic" [index]="i" (eliminarComic)="eliminarComic($event)"></app-comic>
+        <app-comic [comic]="comic" [index]="i"></app-comic>
     </div>
 </div>
